@@ -21,7 +21,6 @@ func BinaryToDecimal(num int) int {
 		remainder = num % 10
 		num = num / 10
 		decimal = decimal + remainder*int(math.Pow(2, i))
-
 	}
 	return decimal
 }
